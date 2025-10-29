@@ -23,6 +23,7 @@
     "react-dom": "^19.0.0",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
+    "ts-node": "^10.9.2",
     "tw-animate-css": "latest"
   },
   "devDependencies": {

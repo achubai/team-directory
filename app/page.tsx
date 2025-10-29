@@ -1,11 +1,23 @@
-/**
- * Bare entry file that just hands off to the chaotic directory feature.
- * Keeping it client side on purpose so everything stays janky.
- */
 'use client'
 
-import MessyDirectory from './teamDirectoryMain'
+
 
 export default function Home() {
-  return <MessyDirectory headerThing="Team Directory" subtitleNote="Meet our talented team members." />
+  return (
+      <main className="min-h-screen bg-background">
+        <div className="container mx-auto px-4 py-12">
+          <div className="max-w-7xl mx-auto space-y-8">
+            {/* Header */}
+            <div className="space-y-4 text-center">
+              <h1 className="text-4xl font-bold tracking-tight text-balance">Team Directory</h1>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
+                Meet our talented team members. Search by name or filter by department to find the right person.
+              </p>
+            </div>
+
+            {/* Team Directory Feature */}
+          </div>
+        </div>
+      </main>
+  )
 }
