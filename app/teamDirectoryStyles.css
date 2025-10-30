@@ -1,0 +1,163 @@
+.wrapperThingie {
+  min-height: 100vh;
+  background: #0c1425;
+  color: #f5f7ff;
+  padding: 60px 40px 120px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.wrapInside {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.headerBlock {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.headerTitle {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+}
+
+.headerSubtitle {
+  font-size: 18px;
+  color: #96a1c4;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.directoryContent {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.searchRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #101c35;
+  border-radius: 14px;
+  padding: 12px 18px;
+  border: 1px solid rgba(77, 105, 169, 0.3);
+}
+
+.searchIcon {
+  color: #6073a8;
+}
+
+.searchInput {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #fff;
+  outline: none;
+  font-size: 16px;
+}
+
+.searchBtn {
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: 1px solid #1d4ed8;
+  background: #1d4ed8;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.departmentsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.departmentPill {
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: #101c35;
+  border: 1px solid rgba(77, 105, 169, 0.5);
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  color: #96a1c4;
+}
+
+.departmentPillActive {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+  color: #ffffff;
+}
+
+.resultCount {
+  font-size: 14px;
+  color: #6f82b2;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 12px;
+}
+
+.teamCard {
+  background: #101c35;
+  border-radius: 18px;
+  padding: 28px;
+  border: 1px solid rgba(77, 105, 169, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.teamCardAvatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 3px solid rgba(29, 78, 216, 0.6);
+  object-fit: cover;
+}
+
+.teamCardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.teamCardName {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.teamCardTitle {
+  font-size: 14px;
+  color: #96a1c4;
+}
+
+.teamCardDept {
+  font-size: 13px;
+  color: #1d9bf0;
+  font-weight: 600;
+}
+
+.teamCardBio {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #6f82b2;
+  min-height: 80px;
+}
+
+.teamCardContact {
+  font-size: 12px;
+  color: #8192bf;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
